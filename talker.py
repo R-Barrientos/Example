@@ -10,7 +10,7 @@ class Talker(object):
             self.yell(phrase)
         else:
             self.msg = phrase
-        print(self.msg)
+            print(self.msg)
 
     def yell(self, phrase):
         print(phrase.upper())
