@@ -7,7 +7,10 @@ class Talker(object):
 
         if loudly:
             # Speaking loudly
-            self.msg = phrase.upper()
+            self.yell(phrase)
         else:
             self.msg = phrase
         print(self.msg)
+
+    def yell(self, phrase):
+        print(phrase.upper())
